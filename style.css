@@ -14,6 +14,7 @@ body {
     background-position: 0 -22px;
     box-sizing: border-box;
     margin: 0;
+    min-height: 100vh;
 }
 img{
     width: 100%;
@@ -119,9 +120,12 @@ footer .social-links{
 
 @media screen and (min-width: 992px) {
     body{
-        background-image: url("./images/bg-desktop.svg");
-        background-size: 97% 102%;
-background-position: 0rem 0rem;
+        background-image: url("./images/bg-desktop.svg#svgView(preserveAspectRatio(none))");
+        background-position: center center;
+        background-repeat: no-repeat;
+        /* background-size: 100% 100%;"); */
+        background-size: 100% 100%;
+        /* background-position: 0rem 0rem; */
     }
     .logo{
         width: 10%;
