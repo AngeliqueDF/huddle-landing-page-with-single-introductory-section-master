@@ -1,3 +1,51 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 html {
     --main-bg-color: #674bb1;
     padding: 0;
@@ -8,13 +56,15 @@ body {
     padding: 1rem;
     background-color: var(--main-bg-color);
     font-family: sans-serif;
-    background-image: url('./images/bg-mobile.svg');
+    background-image: url('./images/bg-mobile.svg#svgView(preserveAspectRatio(none))');
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 0 -22px;
+    background-size: cover;
     box-sizing: border-box;
     margin: 0;
     min-height: 100vh;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 100% 38%;
 }
 img{
     width: 100%;
@@ -29,10 +79,9 @@ header h1{
     margin-top: 1rem;
     margin-bottom: 2rem;
 }
-
 article {
     display: flex;
-    flex-flow: wrap;
+    flex-wrap: wrap;
     text-align: center;
 }
 article section h1 {
@@ -82,62 +131,74 @@ footer .social-links{
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: hsl(0, 100%, 100%);
 }
 
 @media screen and (min-width: 768px) {
-    body{
-        background-image: url('./images/bg-mobile.svg');
-        background-size: cover;
-        background-position: center;
+    body {
+        background-size: 100% 51%;
     }
-    .logo{
-        width:20%;
+    .mockup{
+        max-width: 84%;
+        margin: 5.6em auto 1em auto;
     }
-    article{
-        margin: 2rem auto;
-        flex-direction: row;
-        justify-content: space-evenly;
-        text-align: left;
-    }
-    article img{
-        flex-basis: 50%;
-    }
-    article section{
-        flex-basis: 45%;
-    }
-    article section h1{
-        font-size: 1.7rem;
+    article section h1 {
+        font-size: 3.8rem;
+        line-height: 4.4rem;
     }
     article p{
-        font-size: 0.75em;
-        line-height: 1.2em;
-    }
-    .register-cta{
-        padding: 5px 40px;
+        font-size: 2.1rem;
+        line-height: 2.5rem;
+        padding: 6px;
+        width: 83%;
+        margin: 0 auto 1.5em auto;
     }
 }
-
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1024px) {
     body{
         background-image: url("./images/bg-desktop.svg#svgView(preserveAspectRatio(none))");
         background-position: center center;
         background-repeat: no-repeat;
-        /* background-size: 100% 100%;"); */
         background-size: 100% 100%;
-        /* background-position: 0rem 0rem; */
     }
     .logo{
-        width: 10%;
+        width: 15%;
+        margin-left: 3rem;
+        margin-top: 5rem;
     }
     article{
-        margin: 2.2rem auto;
-        flex-direction: row;
+        margin-top: 6rem;
+        margin-left: 3rem;
+        width: 100%;
         justify-content: space-between;
-        text-align: left;
-        width: 80%;
+        text-align: unset;
     }
-    article img{
-        flex-basis: 53%;
+    .mockup{
+        margin: 0;
+        height: auto;
+        flex-basis: 60%;
+    }
+    article section{
+        flex-basis: 38%;
+        padding-top: 2rem;
+    }
+    article section h1{
+        font-size: 3.8rem;
+        line-height: 4.7rem;
+        padding: 3rem 0 1rem 0;
+    }
+    article section p{
+        font-size: 1.3rem;
+        line-height: 1.4em;
+        margin: 0;
+        margin-bottom: 2rem;
+    }
+    .register-cta{
+        border-radius: 60px;
+        padding: 15px 70px;
+    }
+    footer .social-links{
+        font-size: 1.2rem;
+        text-align: right;
     }
 }
