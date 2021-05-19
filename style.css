@@ -47,7 +47,9 @@ table {
 	border-spacing: 0;
 }
 html {
-    --main-bg-color: #674bb1;
+    --main-bg-color: hsl(257, 40%, 49%);
+    --header-font: 'Poppins', sans-serif;
+    --body-font: 'Open Sans', sans-serif;
     padding: 0;
 }
 body {
@@ -65,6 +67,16 @@ body {
     background-position: top center;
     background-repeat: no-repeat;
     background-size: 100% 38%;
+}
+article h1,
+.register-cta{
+    font-family: var(--header-font);
+}
+article h1{
+    font-weight: 600;
+}
+p{
+    font-family: var(--body-font);
 }
 img{
     width: 100%;
@@ -106,6 +118,7 @@ article p{
     background-color: white;
     border-radius: 20px;
     padding: 10px 80px;
+    box-shadow: 0px 8px 15px 2px #362b54;
 }
 
 footer .social-links{
@@ -133,7 +146,12 @@ footer .social-links{
 .attribution a {
     color: hsl(0, 100%, 100%);
 }
-
+.register-cta:active{
+    background-color: hsl(300, 69%, 71%);
+}
+.social-links:active{
+    color: hsl(300, 69%, 71%);
+}
 @media screen and (min-width: 768px) {
     body {
         background-size: 100% 51%;
@@ -154,7 +172,7 @@ footer .social-links{
         margin: 0 auto 1.5em auto;
     }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1440px) {
     body{
         background-image: url("./images/bg-desktop.svg#svgView(preserveAspectRatio(none))");
         background-position: center center;
@@ -169,7 +187,7 @@ footer .social-links{
     article{
         margin-top: 6rem;
         margin-left: 3rem;
-        width: 100%;
+        max-width: 100%;
         justify-content: space-between;
         text-align: unset;
     }
@@ -183,12 +201,12 @@ footer .social-links{
         padding-top: 2rem;
     }
     article section h1{
-        font-size: 3.8rem;
+        font-size: 3.3rem;
         line-height: 4.7rem;
         padding: 3rem 0 1rem 0;
     }
     article section p{
-        font-size: 1.3rem;
+        font-size: 1rem;
         line-height: 1.4em;
         margin: 0;
         margin-bottom: 2rem;
