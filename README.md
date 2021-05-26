@@ -35,7 +35,7 @@ Users should be able to:
 ## My process
 
 - Build the HTML
-- Add CSS
+- Add CSS to make the page responsive with breakpooints
 - Test
 
 ### Built with
@@ -73,9 +73,7 @@ I'm still not comfortable with using SVG elements.
 
 ### Useful resources
 
-- [SVG Background Stretch](https://forum.webflow.com/t/svg-background-stretch/80917/6) - Although I don't clearly understand how it affected the background.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [SVG Background Stretch](https://forum.webflow.com/t/svg-background-stretch/80917/6) - Although I don't clearly understand how it affected the background yet.
 
 ## Author
 
