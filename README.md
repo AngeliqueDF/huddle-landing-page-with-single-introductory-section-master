@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/angelique-df/huddle-landing-page-with-single-introductory-section-master)
-- Live Site URL: [Add live site URL here](https://angelique-df.github.io/huddle-landing-page-with-single-introductory-section-master/)
+- Solution URL: [Solution URL](https://github.com/angelique-df/huddle-landing-page-with-single-introductory-section-master)
+- Live Site URL: [Live site](https://angelique-df.github.io/huddle-landing-page-with-single-introductory-section-master/)
 
 ## My process
 
@@ -48,24 +48,6 @@ Users should be able to:
 ### What I learned
 
 How to use SVG background.
-```
-body {
-    color: white;
-    font-size: 16px;
-    padding: 1rem;
-    background-color: var(--main-bg-color);
-    font-family: sans-serif;
-    background-image: url('./images/bg-mobile.svg#svgView(preserveAspectRatio(none))');
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-sizing: border-box;
-    margin: 0;
-    min-height: 100vh;
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: 100% 38%;
-}
-```
 
 ### Continued development
 
@@ -74,7 +56,7 @@ I'm still not comfortable with using SVG elements.
 ### Useful resources
 
 - [SVG Background Stretch](https://forum.webflow.com/t/svg-background-stretch/80917/6) - Although I don't clearly understand how it affected the background yet.
-- [How to make footer stick at the bottom of web page.](https://dev.to/nehalahmadkhan/how-to-make-footer-stick-to-bottom-of-web-page-3i14) - 
+- [How to make footer stick at the bottom of web page.](https://dev.to/nehalahmadkhan/how-to-make-footer-stick-to-bottom-of-web-page-3i14) - How to stick the foooter at the bottom of the page.
 
 ## Author
 
