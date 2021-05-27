@@ -1,3 +1,6 @@
+:root{
+    box-sizing: border-box;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -55,18 +58,18 @@ html {
 body {
     color: white;
     font-size: 16px;
+    margin: 0 auto;
     padding: 1rem;
     background-color: var(--main-bg-color);
     font-family: sans-serif;
     background-image: url('./images/bg-mobile.svg#svgView(preserveAspectRatio(none))');
     background-repeat: no-repeat;
     background-size: cover;
-    box-sizing: border-box;
-    margin: 0;
     min-height: 100vh;
     background-position: top center;
     background-repeat: no-repeat;
     background-size: 100% 38%;
+    width: 80%;
 }
 article h1,
 .register-cta{
@@ -156,9 +159,14 @@ footer .social-links{
     body {
         background-size: 100% 51%;
     }
+    .logo{
+        width: 30%;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
     .mockup{
-        max-width: 84%;
-        margin: 5.6em auto 1em auto;
+        width: 100%;
+        margin: 0 auto;
     }
     article section h1 {
         font-size: 3.8rem;
@@ -172,51 +180,87 @@ footer .social-links{
         margin: 0 auto 1.5em auto;
     }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 900px){
     body{
-        background-image: url("./images/bg-desktop.svg#svgView(preserveAspectRatio(none))");
-        background-position: center center;
+        background-image: url("./images/bg-desktop.svg");
+        background-position: left center;
         background-repeat: no-repeat;
-        background-size: 100% 100%;
+        background-size: 84% 100%;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        width: 90%;
+    }
+    .logo,
+    footer .social-links{
+        margin: 0;
+        padding: 0;
     }
     .logo{
         width: 15%;
-        margin-left: 3rem;
-        margin-top: 5rem;
+        margin-top: 2rem;
+        margin-bottom: 1.3rem;
     }
     article{
-        margin-top: 6rem;
-        margin-left: 3rem;
         max-width: 100%;
+        margin-top: 1.5rem;
         justify-content: space-between;
         text-align: unset;
     }
     .mockup{
         margin: 0;
         height: auto;
-        flex-basis: 60%;
+        width: 50%; /*Set the width on Chome*/
+        flex-basis: 50%;
     }
     article section{
-        flex-basis: 38%;
+        flex-basis: 47%;
         padding-top: 2rem;
     }
     article section h1{
-        font-size: 3.3rem;
-        line-height: 4.7rem;
-        padding: 3rem 0 1rem 0;
+        font-size: 3rem;
+        line-height: 4rem;
     }
     article section p{
-        font-size: 1rem;
-        line-height: 1.4em;
+        font-size: 0.9rem;
+        line-height: 1.7em;
         margin: 0;
         margin-bottom: 2rem;
+        width: 100%;
     }
     .register-cta{
         border-radius: 60px;
         padding: 15px 70px;
     }
+    footer{
+        margin-top: auto;
+    }
     footer .social-links{
         font-size: 1.2rem;
         text-align: right;
     }
+    
+}
+@media screen and (min-width: 1200px){
+    body{
+        /* width: unset; */
+        max-width: 1400px;
+    }
+    .logo{
+        margin-bottom: 4.3rem;
+    }
+    article{
+        margin-top: 5.4rem;
+    }
+    .mockup{
+        flex-basis: 54%;
+        width: 54%;
+    }
+    article section{
+        flex-basis: 44.3%;
+    }
+    article section p{
+        font-size: 1.3rem;
+    }
+    
 }
