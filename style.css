@@ -1,6 +1,8 @@
 :root{
     box-sizing: border-box;
 }
+
+/* RESET CSS */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -55,6 +57,9 @@ html {
     --body-font: 'Open Sans', sans-serif;
     padding: 0;
 }
+
+/* END RESET CSS */
+
 body {
     color: white;
     font-size: 16px;
@@ -62,12 +67,11 @@ body {
     padding: 1rem;
     background-color: var(--main-bg-color);
     font-family: sans-serif;
-    background-image: url('./images/bg-mobile.svg#svgView(preserveAspectRatio(none))');
+    background-image: url('./images/bg-mobile.svg');
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
     background-position: top center;
-    background-repeat: no-repeat;
     background-size: 100% 38%;
     width: 80%;
 }
