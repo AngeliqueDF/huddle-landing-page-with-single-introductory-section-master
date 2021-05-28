@@ -54,12 +54,27 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-html {
-    background: var(--main-bg-color) url('./images/bg-mobile.svg') top center/100% 38% no-repeat;
-    padding: 0;
-}
 
 /* END RESET CSS */
+
+html {
+    /* background: var(--main-bg-color) url('./images/bg-mobile.svg') top center/38% 100% no-repeat; */
+    padding: 0;
+    /* background-image: url('./images/bg-mobile.svg');
+    background-size: 100% 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-color: var(--main-bg-color); */
+
+    background-image: url('./images/bg-mobile.svg');
+    background-position: top center;
+    background-size: 100% 40%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-origin: border-box;
+    background-clip: border-box;
+    background-color: var(--main-bg-color);
+}
 
 body {
     color: white;
@@ -155,8 +170,15 @@ footer .social-links{
     color: hsl(300, 69%, 71%);
 }
 @media screen and (min-width: 768px) {
-    body {
-        background-size: 100% 51%;
+    html{
+        background-image: url('./images/bg-mobile.svg');
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: 100% 60%;
+        /* background-attachment: fixed;
+        background-origin: border-box;
+        background-clip: border-box;
+        background-color: var(--main-bg-color); */
     }
     .logo{
         width: 30%;
@@ -181,8 +203,10 @@ footer .social-links{
 }
 @media screen and (min-width: 900px){
     html{
-        background: var(--main-bg-color) url('./images/bg-desktop.svg') left center/84% 100% no-repeat;
-
+        background-image: url('./images/bg-desktop.svg');
+        background-size: 84% 100%;
+        background-position: left center;
+        background-repeat: no-repeat;
     }
     body{
         display: flex;
@@ -242,7 +266,6 @@ footer .social-links{
 }
 @media screen and (min-width: 1200px){
     body{
-        /* width: unset; */
         max-width: 1400px;
     }
     .logo{
