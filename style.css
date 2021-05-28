@@ -1,4 +1,7 @@
 :root{
+    --main-bg-color: hsl(257, 40%, 49%);
+    --header-font: 'Poppins', sans-serif;
+    --body-font: 'Open Sans', sans-serif;
     box-sizing: border-box;
 }
 
@@ -52,15 +55,8 @@ table {
 	border-spacing: 0;
 }
 html {
-    --main-bg-color: hsl(257, 40%, 49%);
-    --header-font: 'Poppins', sans-serif;
-    --body-font: 'Open Sans', sans-serif;
+    background: var(--main-bg-color) url('./images/bg-mobile.svg') top center/100% 38% no-repeat;
     padding: 0;
-    background: url('./images/bg-mobile.svg') no-repeat;
-    background-color: var(--main-bg-color);
-    background-size: cover;
-    background-position: top center;
-    background-size: 100% 38%;
 }
 
 /* END RESET CSS */
@@ -185,9 +181,8 @@ footer .social-links{
 }
 @media screen and (min-width: 900px){
     html{
-        background: url("./images/bg-desktop.svg") no-repeat;
-        background-position: left center;
-        background-size: 84% 100%;
+        background: var(--main-bg-color) url('./images/bg-desktop.svg') left center/84% 100% no-repeat;
+
     }
     body{
         display: flex;
