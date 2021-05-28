@@ -60,12 +60,6 @@ table {
 html {
     /* background: var(--main-bg-color) url('./images/bg-mobile.svg') top center/38% 100% no-repeat; */
     padding: 0;
-    /* background-image: url('./images/bg-mobile.svg');
-    background-size: 100% 100%;
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-color: var(--main-bg-color); */
-
     background-image: url('./images/bg-mobile.svg');
     background-position: top center;
     background-size: 100% 40%;
