@@ -56,6 +56,12 @@ html {
     --header-font: 'Poppins', sans-serif;
     --body-font: 'Open Sans', sans-serif;
     padding: 0;
+    background-color: var(--main-bg-color);
+    background-image: url('./images/bg-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-size: 100% 38%;
 }
 
 /* END RESET CSS */
@@ -65,14 +71,8 @@ body {
     font-size: 16px;
     margin: 0 auto;
     padding: 1rem;
-    background-color: var(--main-bg-color);
     font-family: sans-serif;
-    background-image: url('./images/bg-mobile.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
     min-height: 100vh;
-    background-position: top center;
-    background-size: 100% 38%;
     width: 80%;
 }
 article h1,
@@ -185,11 +185,13 @@ footer .social-links{
     }
 }
 @media screen and (min-width: 900px){
-    body{
+    html{
         background-image: url("./images/bg-desktop.svg");
         background-position: left center;
         background-repeat: no-repeat;
         background-size: 84% 100%;
+    }
+    body{
         display: flex;
         flex-direction: column;
         min-height: 100vh;
