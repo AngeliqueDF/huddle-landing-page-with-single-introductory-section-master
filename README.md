@@ -57,6 +57,7 @@ I'm still not comfortable with using SVG elements.
 
 - [SVG Background Stretch](https://forum.webflow.com/t/svg-background-stretch/80917/6) - Although I don't clearly understand how it affected the background yet.
 - [How to make footer stick at the bottom of web page.](https://dev.to/nehalahmadkhan/how-to-make-footer-stick-to-bottom-of-web-page-3i14) - How to stick the foooter at the bottom of the page.
+- [atekron's](https://github.com/atekron/fm-huddle-landing-page-with-single-introductory-section/blob/master/style.css) and[Vjekoni's](https://github.com/Frontend-Mentor-projects/Huddle-landing-page/blob/main/style.css)  solution - background-size: 100% auto for mobile displays.
 
 ## Author
 
