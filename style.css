@@ -80,11 +80,11 @@ body {
     min-height: 100vh;
     width: 80%;
 }
-article h1,
+article h2,
 .register-cta{
     font-family: var(--header-font);
 }
-article h1{
+article h2{
     font-weight: 600;
 }
 p{
@@ -108,7 +108,7 @@ article {
     flex-wrap: wrap;
     text-align: center;
 }
-article section h1 {
+article section h2 {
     font-size: 1.5rem;
     line-height: 2.2rem;
 }
@@ -184,7 +184,7 @@ footer .social-links{
         width: 100%;
         margin: 0 auto;
     }
-    article section h1 {
+    article section h2 {
         font-size: 3.8rem;
         line-height: 4.4rem;
     }
@@ -235,7 +235,7 @@ footer .social-links{
         flex-basis: 47%;
         padding-top: 2rem;
     }
-    article section h1{
+    article section h2{
         font-size: 3rem;
         line-height: 4rem;
     }
