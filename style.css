@@ -6,6 +6,7 @@
 }
 
 /* RESET CSS */
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -62,7 +63,7 @@ html {
     padding: 0;
     background-image: url('./images/bg-mobile.svg');
     background-position: top center;
-    background-size: 100% 40%;
+    background-size: 100% auto;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-origin: border-box;
@@ -168,7 +169,7 @@ footer .social-links{
         background-image: url('./images/bg-mobile.svg');
         background-repeat: no-repeat;
         background-position: top center;
-        background-size: 100% 60%;
+        background-size: 100% auto;
         /* background-attachment: fixed;
         background-origin: border-box;
         background-clip: border-box;
