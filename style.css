@@ -199,8 +199,8 @@ footer .social-links{
 @media screen and (min-width: 900px){
     html{
         background-image: url('./images/bg-desktop.svg');
-        background-size: 84% 100%;
-        background-position: left center;
+        background-size: 100% 100%;
+        background-position: left top;
         background-repeat: no-repeat;
     }
     body{
@@ -215,13 +215,13 @@ footer .social-links{
         padding: 0;
     }
     .logo{
-        width: 15%;
-        margin-top: 2rem;
-        margin-bottom: 1.3rem;
+        width: 18%;
+        margin-top: 2.6rem;
+        margin-bottom: 4.1rem;
     }
     article{
         max-width: 100%;
-        margin-top: 1.5rem;
+        margin-top: 2.8rem;
         justify-content: space-between;
         text-align: unset;
     }
@@ -236,11 +236,12 @@ footer .social-links{
         padding-top: 2rem;
     }
     article section h2{
-        font-size: 3rem;
-        line-height: 4rem;
+        color: unset;
+        font-size: 2.4rem;
+        line-height: 3.6rem;
     }
     article section p{
-        font-size: 0.9rem;
+        font-size: 1.1rem;
         line-height: 1.7em;
         margin: 0;
         margin-bottom: 2rem;
@@ -259,15 +260,19 @@ footer .social-links{
     }
     
 }
+
 @media screen and (min-width: 1200px){
+    html{
+        background-size: 90% 100%;
+    }
     body{
         max-width: 1400px;
     }
     .logo{
-        margin-bottom: 4.3rem;
+        margin-bottom: 4rem;
     }
     article{
-        margin-top: 5.4rem;
+        margin-top: 4.6rem;
     }
     .mockup{
         flex-basis: 54%;
@@ -276,8 +281,13 @@ footer .social-links{
     article section{
         flex-basis: 44.3%;
     }
+    article section h2{
+        font-size: 3rem;
+        line-height: 4rem;
+        color: unset;
+    }
     article section p{
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
     
 }
