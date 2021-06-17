@@ -228,11 +228,11 @@ footer .social-links{
     .mockup{
         margin: 0;
         height: auto;
-        width: 50%; /*Set the width on Chome*/
-        flex-basis: 50%;
+        width: 60%; /*Set width on Chome*/
+        flex-basis: 60%;
     }
     article section{
-        flex-basis: 47%;
+        flex-basis: 38%;
         padding-top: 2rem;
     }
     article section h2{
@@ -275,19 +275,19 @@ footer .social-links{
         margin-top: 3.9rem;
     }
     .mockup{
-        flex-basis: 54%;
-        width: 54%;
+        flex-basis: 60%;
+        width: 60%;
     }
     article section{
-        flex-basis: 44.3%;
+        flex-basis: 36.4%;
     }
     article section h2{
-        font-size: 3rem;
+        font-size: 2.9rem;
         line-height: 4rem;
         color: unset;
     }
     article section p{
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
     
 }
