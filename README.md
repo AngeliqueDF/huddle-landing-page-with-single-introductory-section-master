@@ -48,7 +48,7 @@ Users should be able to:
 ### What I learned
 
 How to use SVG background.
-Browsers on iOS use Safari's rendering engine. 
+[Browsers on iOS use Safari's rendering engine](https://www.howtogeek.com/184283/why-third-party-browsers-will-always-be-inferior-to-safari-on-iphone-and-ipad/)!!!
 
 ### Continued development
 
