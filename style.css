@@ -82,7 +82,7 @@ body {
 }
 article h2,
 .register-cta{
-    font-family: var(--header-font);
+    font-family: var(--headings-font);
 }
 article h2{
     font-family: var(--headings-font);
