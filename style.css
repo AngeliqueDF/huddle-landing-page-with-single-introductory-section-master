@@ -1,9 +1,4 @@
-:root{
-    --main-bg-color: hsl(257, 40%, 49%);
-    --header-font: 'Poppins', sans-serif;
-    --body-font: 'Open Sans', sans-serif;
-    box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Poppins:wght@400;600&display=swap');
 
 /* RESET CSS */
 
@@ -57,9 +52,15 @@ table {
 }
 
 /* END RESET CSS */
+:root{
+    --main-bg-color: hsl(257, 40%, 49%);
+    --body-font: 'Open Sans', sans-serif;
+    --body-font-weight: 400;
+    --headings-font: 'Poppins', sans-serif;
+    --headings-font-weight: 600;
+}
 
 html {
-    /* background: var(--main-bg-color) url('./images/bg-mobile.svg') top center/38% 100% no-repeat; */
     padding: 0;
     background-image: url('./images/bg-mobile.svg');
     background-position: top center;
@@ -76,7 +77,6 @@ body {
     font-size: 16px;
     margin: 0 auto;
     padding: 1em;
-    font-family: sans-serif;
     min-height: 100vh;
     width: 80%;
 }
@@ -85,7 +85,8 @@ article h2,
     font-family: var(--header-font);
 }
 article h2{
-    font-weight: 600;
+    font-family: var(--headings-font);
+    font-weight: var(--headings-font-weight);
 }
 p{
     font-family: var(--body-font);
@@ -170,10 +171,6 @@ footer .social-links{
         background-repeat: no-repeat;
         background-position: top center;
         background-size: 100% auto;
-        /* background-attachment: fixed;
-        background-origin: border-box;
-        background-clip: border-box;
-        background-color: var(--main-bg-color); */
     }
     .logo{
         width: 30%;
@@ -278,11 +275,11 @@ footer .social-links{
         width: 60%;
     }
     article section{
-        flex-basis: 37.5%;
+        flex-basis: 34.4%;
     }
     article section h2{
         font-size: 2.4em;
-        line-height: 4em;
+        line-height: 2em;
         color: unset;
     }
     article section p{
