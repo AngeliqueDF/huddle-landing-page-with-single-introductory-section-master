@@ -36,7 +36,7 @@ Users should be able to:
 
 - Build the HTML
 - Add CSS to make the page responsive with breakpooints
-- Test
+- Test the layout for different screen sizes.
 
 ### Built with
 
@@ -48,6 +48,7 @@ Users should be able to:
 ### What I learned
 
 How to use SVG background.
+Browsers on iOS use Safari's rendering engine. 
 
 ### Continued development
 
