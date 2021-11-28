@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
--   Live Site URL: [Live site](https://angelique-df.github.io/huddle-landing-page-with-single-introductory-section-master/)
+-   Live Site URL: [Live site](https://angeliquedf.github.io/huddle-landing-page-with-single-introductory-section-master/)
 -   Solution repo: [Solution repo](https://github.com/angeliquedf/huddle-landing-page-with-single-introductory-section-master)
 
 ## My process
