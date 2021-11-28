@@ -1,281 +1,148 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Poppins:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Poppins:wght@400;600&display=swap");
 
-/* RESET CSS */
-
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
+:root {
+	--main-bg-color: hsl(257, 40%, 49%);
+	--body-font: "Open Sans", sans-serif;
+	--body-font-weight: 400;
+	--headings-font: "Poppins", sans-serif;
+	--headings-font-weight: 600;
+}
+/* html {
 	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
+	background-image: url("./images/bg-mobile.svg");
+	background-position: top center;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-origin: border-box;
+	background-clip: border-box;
+	background-color: var(--main-bg-color);
+} */
+/* * {
+	padding: 0;
+	margin: 0;
+} */
 body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-/* END RESET CSS */
-:root{
-    --main-bg-color: hsl(257, 40%, 49%);
-    --body-font: 'Open Sans', sans-serif;
-    --body-font-weight: 400;
-    --headings-font: 'Poppins', sans-serif;
-    --headings-font-weight: 600;
-}
-
-html {
-    padding: 0;
-    background-image: url('./images/bg-mobile.svg');
-    background-position: top center;
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-origin: border-box;
-    background-clip: border-box;
-    background-color: var(--main-bg-color);
-}
-
-body {
-    color: white;
-    font-size: 16px;
-    margin: 0 auto;
-    padding: 1em;
-    min-height: 100vh;
-    width: 80%;
+	color: white;
+	font-size: 16px;
+	margin: 0 auto;
+	padding: 1rem;
+	max-height: 100vh;
+	width: 80%;
+	overflow: hidden;
 }
 article h2,
-.register-cta{
-    font-family: var(--headings-font);
+.register-cta {
+	font-family: var(--headings-font);
 }
-article h2{
-    font-family: var(--headings-font);
-    font-weight: var(--headings-font-weight);
+article h2 {
+	font-family: var(--headings-font);
+	font-weight: var(--headings-font-weight);
 }
-p{
-    font-family: var(--body-font);
+p {
+	font-family: var(--body-font);
 }
-img{
-    width: 100%;
-    height: auto;
+img {
+	width: 100%;
+	height: auto;
 }
-header h1{
-    padding:0;
-    margin: 0;
+header h1 {
+	padding: 0;
+	margin: 0;
 }
 .logo {
-    width: 40%;
-    margin-top: 1em;
-    margin-bottom: 2em;
+	width: 40%;
+	/* margin-top: 1rem;
+	margin-bottom: 2rem; */
 }
 article {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
 }
 article section h2 {
-    font-size: 1.5em;
-    line-height: 2.2em;
+	font-size: 1.5rem;
+	line-height: 2.2rem;
 }
-article p{
-    font-size: 1em;
-    margin-bottom: 2em;
-    line-height: 1.8em;
-    padding: 6px;
-    opacity: 80%;
+article p {
+	font-size: 1rem;
+	margin-bottom: 2rem;
+	line-height: 1.8rem;
+	padding: 6px;
+	opacity: 80%;
 }
-.mockup{
-    margin-bottom: 2em;
+/* .mockup {
+	margin-bottom: 2rem;
+} */
+.register-cta {
+	color: var(--main-bg-color);
+	text-decoration: none;
+	background-color: white;
+	border-radius: 20px;
+	padding: 10px 80px;
+	box-shadow: 0px 8px 15px 2px #362b54;
 }
-.register-cta{
-    color: var(--main-bg-color);
-    text-decoration: none;
-    background-color: white;
-    border-radius: 20px;
-    padding: 10px 80px;
-    box-shadow: 0px 8px 15px 2px #362b54;
+footer .social-links {
+	/* margin: 5rem auto 3rem auto; */
+	text-align: center;
+	color: white;
 }
-footer .social-links{
-    margin: 5em auto 3em auto;
-    text-align: center;
-    color: white;
-}
-.social-links a img{
-    height: 1em;
-    width: 1em;
-    border: 1px solid #fff;
-    border-radius: 100%;
-    padding: .4em;
-    margin: .25em;
-    -webkit-filter: brightness(0) invert(1);
-    filter: brightness(0) invert(1);
+.social-links a img {
+	height: 1rem;
+	width: 1rem;
+	border: 1px solid #fff;
+	border-radius: 100%;
+	/* padding: 0.4rem; */
+	/* margin: 0.25rem; */
+	-webkit-filter: brightness(0) invert(1);
+	filter: brightness(0) invert(1);
+	margin: 0;
 }
 .attribution {
-    font-size: 11px;
-    text-align: center;
+	font-size: 11px;
+	text-align: center;
 }
 .attribution a {
-    color: hsl(0, 100%, 100%);
+	color: hsl(0, 100%, 100%);
 }
-.register-cta:active{
-    background-color: hsl(300, 69%, 71%);
+.register-cta:active {
+	background-color: hsl(300, 69%, 71%);
 }
-.social-links:active{
-    color: hsl(300, 69%, 71%);
+.social-links:active {
+	color: hsl(300, 69%, 71%);
 }
-@media screen and (min-width: 768px) {
-    html{
-        background-image: url('./images/bg-mobile.svg');
-        background-repeat: no-repeat;
-        background-position: top center;
-        background-size: 100% auto;
-    }
-    .logo{
-        width: 30%;
-        margin-top: 1em;
-        margin-bottom: 2em;
-    }
-    .mockup{
-        width: 100%;
-        margin: 0 auto;
-    }
-    article section h2 {
-        font-size: 3.8em;
-        /* line-height: 4.4em; */
-    }
-    article p{
-        font-size: 2.1em;
-        line-height: 2.5em;
-        padding: 6px;
-        width: 83%;
-        margin: 0 auto 1.5em auto;
-    }
-}
-@media screen and (min-width: 900px){
-    html{
-        background-image: url('./images/bg-desktop.svg');
-        background-size: 100% 100%;
-        background-position: left top;
-        background-repeat: no-repeat;
-    }
-    body{
-        font-size: 14px;
-        display: flex;
-        flex-direction: column;
-        min-height: 100vh;
-        width: 90%;
-    }
-    .logo,
-    footer .social-links{
-        margin: 0;
-        padding: 0;
-    }
-    .logo{
-        width: 18%;
-        margin-top: 2.6em;
-        margin-bottom: 2.6em;
-    }
-    article{
-        max-width: 100%;
-        margin-top: 2.8em;
-        justify-content: space-between;
-        text-align: unset;
-    }
-    .mockup{
-        margin: 0;
-        height: auto;
-        width: 60%; /*Set width on Chome*/
-        flex-basis: 60%;
-    }
-    article section{
-        flex-basis: 38%;
-        padding-top: 2em;
-    }
-    article section h2{
-        color: unset;
-        font-size: 2em;
-    }
-    article section p{
-        font-size: 0.7rem;
-        line-height: 1.7em;
-        margin: 0;
-        margin-bottom: 2em;
-        width: 100%;
-    }
-    .register-cta{
-        border-radius: 60px;
-        padding: 15px 70px;
-    }
-    footer{
-        margin-top: auto;
-    }
-    footer .social-links{
-        font-size: 1.2em;
-        text-align: right;
-    }
-}
-@media screen and (min-width: 1200px){
-    html{
-        background-size: 90% 100%;
-    }
-    body{
-        max-width: 1400px;
-    }
-    .logo{
-        margin-bottom: 2.5em;
-    }
-    article{
-        margin-top: 3.9em;
-    }
-    .mockup{
-        flex-basis: 60%;
-        width: 60%;
-    }
-    article section{
-        flex-basis: 32.3%;
-    }
-    article section h2{
-        font-size: 2.4em;
-        line-height: 2em;
-        color: unset;
-    }
-    article section p{
-        font-size: 1em;
-    }    
+@media screen and (min-width: 1440px) {
+	html {
+		font-size: 16px;
+		background: none;
+		padding: 0;
+	}
+	body {
+		background-image: url("./images/bg-desktop.svg");
+		background-size: 160vh 100%;
+		background-color: var(--main-bg-color);
+		background-repeat: no-repeat;
+		height: 100vh;
+		/* width: 100vw; */
+		margin: 0;
+		/* padding: 3rem; */
+		max-height: 100vh;
+	}
+	.logo {
+		width: 17%;
+	}
+	article {
+		flex-direction: row;
+		justify-content: start;
+		/* margin-top: 6.5rem; */
+		/* width: 100%; */
+		/* margin: 0 auto; */
+	}
+	.mockup {
+		flex-basis: 70%;
+	}
+	article section {
+		flex-basis: 20%;
+		margin-left: 3rem;
+	}
 }
