@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Solution URL](https://github.com/angelique-df/huddle-landing-page-with-single-introductory-section-master)
 -   Live Site URL: [Live site](https://angelique-df.github.io/huddle-landing-page-with-single-introductory-section-master/)
+-   Solution repo: [Solution repo](https://github.com/angeliquedf/huddle-landing-page-with-single-introductory-section-master)
 
 ## My process
 
