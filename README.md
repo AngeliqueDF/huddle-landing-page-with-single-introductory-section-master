@@ -50,7 +50,7 @@ How to use SVG background.
 
 ### Continued development
 
-I need to work on SVG elements more.
+I need to work with SVG elements more.
 
 ### Useful resources
 
