@@ -141,12 +141,12 @@ footer {
 		margin-bottom: 1.2rem;
 	}
 	.logo {
-		width: 15%;
+		width: 17%;
 	}
 	article {
 		flex-direction: row;
 		justify-content: space-between;
-		padding-top: 5.55rem;
+		padding-top: 5rem;
 	}
 	.mockup {
 		flex-basis: 55%;
