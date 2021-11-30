@@ -54,7 +54,6 @@ article {
 	text-align: center;
 }
 article section h2 {
-	/* font-size: 1.25rem; */
 	font-size: 1.75rem;
 	width: 85%;
 	margin: 0 auto;
@@ -77,7 +76,7 @@ article p {
 	border-radius: 20px;
 	padding: 10px 80px;
 	font-size: 0.8rem;
-	box-shadow: 0px 1px 0px 2px #362b54;
+	box-shadow: 0px 7px 25px 2px #362b54;
 }
 footer {
 	margin-top: 6rem;
@@ -133,7 +132,7 @@ footer {
 		background-attachment: fixed;
 		height: 100vh;
 		margin: 0;
-		padding-top: 7rem;
+		padding-top: 4rem;
 		padding-left: 5rem;
 		padding-right: 4rem;
 		max-height: 100vh;
@@ -147,7 +146,7 @@ footer {
 	article {
 		flex-direction: row;
 		justify-content: space-between;
-		padding-top: 7rem;
+		padding-top: 5.55rem;
 	}
 	.mockup {
 		flex-basis: 55%;
@@ -157,7 +156,7 @@ footer {
 		text-align: initial;
 	}
 	article section h2 {
-		font-size: 3.5rem;
+		font-size: 3rem;
 		line-height: 4.5rem;
 		margin: 0;
 		margin-top: 3.5rem;
@@ -166,32 +165,36 @@ footer {
 		width: 100%;
 		line-height: 2.5rem;
 		padding: 0;
-		margin-top: 6rem;
+		margin-top: 3rem;
 	}
 	article section p,
-	article section a.register-cta {
-		font-size: 1.75rem;
+	.register-cta {
+		font-size: 1.5rem;
 	}
-	article section a.register-cta {
+	.register-cta {
 		padding: 0;
 		display: block;
 		width: 12%;
-		padding: 2.2rem 7rem;
+		padding: 1.8rem 7rem;
 		border-radius: 100px;
 	}
 	footer {
 		margin-top: 1rem;
 	}
+	body {
+		position: relative;
+	}
 	.social-links {
-		justify-content: flex-end;
-		margin-top: 3rem;
-		/* padding-right: 1.5rem; */
+		display: block;
+		position: absolute;
+		right: 4rem;
+		bottom: 5rem;
 	}
 	.social-links a img {
-		height: 2.1rem;
-		width: 2.1rem;
+		height: 1.5rem;
+		width: 1.5rem;
 		padding: 1.1rem;
-		margin-left: 2.2rem;
+		margin-left: 0.5rem;
 	}
 	.attribution {
 		margin-top: 1rem;
