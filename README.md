@@ -32,8 +32,8 @@ Users should be able to:
 
 ## My process
 
--   Build the HTML
--   Add CSS to make the page responsive with breakpooints
+-   Build the HTML with semantic markup.
+-   Add CSS to make the page responsive with breakpoints.
 -   Test the layout for different screen sizes.
 
 ### Built with
@@ -47,14 +47,6 @@ Users should be able to:
 
 How to use SVG background.
 [Browsers on iOS use Safari's rendering engine](https://www.howtogeek.com/184283/why-third-party-browsers-will-always-be-inferior-to-safari-on-iphone-and-ipad/).
-
-### Continued development
-
-I need to work with SVG elements more.
-
-### Useful resources
-
--   [atekron's](https://github.com/atekron/fm-huddle-landing-page-with-single-introductory-section/blob/master/style.css) and[Vjekoni's](https://github.com/Frontend-Mentor-projects/Huddle-landing-page/blob/main/style.css) solution - background-size: 100% auto for mobile displays.
 
 ## Author
 
