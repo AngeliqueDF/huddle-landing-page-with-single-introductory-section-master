@@ -1,6 +1,5 @@
-# Frontend Mentor - Huddle landing page with single introductory section solution
 
-This is a solution to the [Huddle landing page with single introductory section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+# Huddle landing page with single introductory section. Responsive landing page with semantic HTML.
 
 ## Table of contents
 
@@ -11,8 +10,9 @@ This is a solution to the [Huddle landing page with single introductory section 
     -   [Built with](#built-with)
     -   [What I learned](#what-i-learned)
     -   [Continued development](#continued-development)
-    -   [Useful resources](#useful-resources)
--   [Author](#author)
+    -   [Author](#what-i-learned)
+
+## Overview
 
 ### The challenge
 
@@ -27,14 +27,15 @@ Users should be able to:
 
 ### Links
 
--   Live Site URL: [Live site](https://angeliquedf.github.io/huddle-landing-page-with-single-introductory-section-master/)
--   Solution repo: [Solution repo](https://github.com/angeliquedf/huddle-landing-page-with-single-introductory-section-master)
+- [Live site](https://angeliquedf.github.io/huddle-landing-page-with-single-introductory-section-master/)
+- [Solution repo](https://github.com/angeliquedf/huddle-landing-page-with-single-introductory-section-master)
+- [Challenge page](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0)
 
 ## My process
 
 -   Build the HTML with semantic markup.
--   Add CSS to make the page responsive with breakpoints.
--   Test the layout for different screen sizes.
+-   Add CSS for styling and responsiveness.
+-   Test the layout for browser inconsistencies.
 
 ### Built with
 
@@ -45,8 +46,31 @@ Users should be able to:
 
 ### What I learned
 
-How to use SVG background.
-[Browsers on iOS use Safari's rendering engine](https://www.howtogeek.com/184283/why-third-party-browsers-will-always-be-inferior-to-safari-on-iphone-and-ipad/).
+- Applying rules to ``<body>`` that  prevent the display of scrollbars, since all elements had to fit in the viewport.
+```
+body {
+    overflow: hidden;
+    // ...
+}
+```
+    
+- Using SVG as a background image, resizing and stretching it to match the design.
+```
+body {
+    background-image: url("./../images/bg-desktop.svg");
+    background-size: 92vw 100vh;
+    background-position: left top;
+    background-color: var(--main-bg-color);
+    background-repeat: no-repeat;
+    -apple-background-size: 100% auto;
+    background-attachment: fixed;
+    // ...
+}
+```
+    
+### Continued development
+
+- Get a better understanding of SVG.
 
 ## Author
 
