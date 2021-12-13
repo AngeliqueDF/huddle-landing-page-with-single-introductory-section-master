@@ -47,6 +47,7 @@ Users should be able to:
 ### What I learned
 
 - Applying rules to ``<body>`` that  prevent the display of scrollbars, since all elements had to fit in the viewport.
+
 ```
 body {
     overflow: hidden;
@@ -55,6 +56,7 @@ body {
 ```
     
 - Using SVG as a background image, resizing and stretching it to match the design.
+
 ```
 body {
     background-image: url("./../images/bg-desktop.svg");
